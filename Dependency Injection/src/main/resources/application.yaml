@@ -1,0 +1,12 @@
+spring:
+  application:
+    name:
+      store
+stripe:
+  apiUrl: url
+  enable: true
+  timeout: 1000
+  supported-currencies: USD,LKR
+
+payment-gateway:
+  stripe
